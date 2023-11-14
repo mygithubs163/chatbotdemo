@@ -15,13 +15,13 @@
   "contributes": {
     "commands": [
       {
-        "command": "hello-world",
-        "title": "Hello World"
+        "command": "chatbotdemo",
+        "title": "CHATBOTDEMO"
       }
     ],
     "keybindings": [
       {
-        "command": "hello-world",
+        "command": "chatbotdemo",
         "key": "ctrl+f10",
         "mac": "cmd+f10",
         "when": "editorFocus"
@@ -30,7 +30,7 @@
     "menus": {
       "explorer/context": [
         {
-          "command": "hello-world",
+          "command": "chatbotdemo",
           "group": "navigation", 
           "when": "explorerResourceIsFolder" 
         }
